@@ -233,7 +233,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     background: #f8f8f8;
-    width: 200px;
+    width: 400px;
     text-align: center;
     padding: 0;
 }
@@ -282,6 +282,7 @@ body {
     .nav-logo {
         flex: 1;
         justify-content: space-between;
+        padding-right: 1rem;
     }
 
     .nav-toggle {
@@ -297,6 +298,10 @@ body {
     .nav-logo:hover .logo,
     .nav-logo.logo-hidden .logo {
         opacity: 1;
+    }
+
+    .nav-contact{
+        display: none;
     }
 
     .full-menu.active {
@@ -315,12 +320,7 @@ body {
     .footer-categories {
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
-    }
-
-    .category-list {
-        position: static;
-        transform: none;
-        width: 100%;
+        text-align: center;
+        gap: 2rem;
     }
 }
